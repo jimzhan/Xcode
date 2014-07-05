@@ -1,34 +1,26 @@
-Xcode
-=====
+# Templates
 
-Xcode's project/file templates &amp; preferences.
-
-
-## Templates ##
-
-### File Templates ###
-
-#### funbox.me ####
+## File Templates
 
 * Header
 * Swift
 
 
-### Project Templates ###
+## Project Templates
 
-#### iOS ####
+### iOS
 
-##### Application #####
+#### Application
 
-###### CocoaPods Application ######
+##### CocoaPods Application
 
-* Auto Bridging-Header setup
+* Auto Bridging-Header setup for accessing Objective-C API from Swfit
 * Podfile skeleton
 
 
-## User Data ##
+# User Data
 
-### FontAndColorThemes ###
+## FontAndColorThemes
 
 * 2morrow Night (Eighties)
 * 2morrow Night
@@ -41,4 +33,3 @@ Xcode's project/file templates &amp; preferences.
 * Resesif
 * Sidewalk Chalk
 * Sunset
-
