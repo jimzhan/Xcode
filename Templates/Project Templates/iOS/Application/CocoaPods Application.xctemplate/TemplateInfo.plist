@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Kind</key>
+    <string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+
+    <key>Identifier</key>
+    <string>me.funbox.templates.iphoneos.CocoaPods</string>
+
+    <key>Ancestors</key>
+    <array>
+        <string>com.apple.dt.unit.emptyApplication</string>
+    </array>
+
+    <key>Concrete</key>
+    <true/>
+
+    <key>Description</key>
+    <string>A starting point for any CocoaPods based application. It provides just an application delegate and a window along with Podfile skeleton.</string>
+
+    <key>Definitions</key>
+    <dict>
+        <key>Bridging-Header.h</key>
+        <dict>
+            <key>Group</key>
+            <string>Supporting Files</string>
+            <key>Path</key>
+            <string>Bridging-Header.h</string>
+        </dict>
+        <key>../Podfile</key>
+        <dict>
+            <key>Group</key>
+            <string>Supporting Files</string>
+            <key>Path</key>
+            <string>Podfile</string>
+        </dict>
+    </dict>
+
+    <key>Nodes</key>
+    <array>
+        <string>Bridging-Header.h</string>
+        <string>../Podfile</string>
+    </array>
+
+    <key>Platforms</key>
+    <array>
+        <string>com.apple.platform.iphoneos</string>
+    </array>
+
+    <key>Project</key>
+    <dict>
+        <key>SDK</key>
+        <string>iphoneos</string>
+        <key>Configurations</key>
+        <dict>
+            <key>Debug</key>
+            <dict>
+                <key>SWIFT_OBJC_BRIDGING_HEADER</key>
+                <string>$(PROJECT_NAME)/Bridging-Header.h</string>
+            </dict>
+            <key>Release</key>
+            <dict>
+                <key>SWIFT_OBJC_BRIDGING_HEADER</key>
+                <string>$(PROJECT_NAME)/Bridging-Header.h</string>
+            </dict>
+        </dict>
+    </dict>
+
+</dict>
+</plist>
